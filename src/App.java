@@ -40,8 +40,8 @@ public class App extends Application {
 
   /** Determine if the cell are all occupied */
   public boolean isFull() {
-    for (int i = 0; i < 3; i++)
-      for (int j = 0; j < 3; j++)
+    for (int i = 0; i < 5; i++)
+      for (int j = 0; j < 5; j++)
         if (cell[i][j].getToken() == ' ')
           return false;
 
